@@ -1,0 +1,148 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+
+<section class="content">
+<div class="container-fluid">
+
+  <div class="row-fluid">
+        <div class="span2">
+          
+          <!--/.well -->
+        </div><!--/span-->
+
+
+  <div class="span10">
+          
+     
+          <style type="text/css">
+
+  #stage4 {
+    margin: 0em auto;
+    width: 1000px;
+    height: 300px;
+
+  }
+  #stage4 a {  
+    position: absolute;
+    top:118px;
+    left: 143px;
+
+   
+  }
+   #stage4 a img {
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+
+  #stage4 a:nth-of-type(1) {
+    -webkit-animation-name: fader;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: fader;
+    -moz-animation-delay: 4s;
+    -moz-animation-duration: 1s;
+    -ms-animation-name: fader;
+    -ms-animation-delay: 4s;
+    -ms-animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage4 a:nth-of-type(2) { z-index: 10; }
+  #stage4 a:nth-of-type(n+3) { display: none; }
+
+  @-webkit-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  @-moz-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  @-ms-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+</style>
+<br><br><br><br><br><br><br><br><br>
+<div id="stage4">
+<a href="/images/1.jpg"><img src="/images/1.jpg" width="980" height="300"></a>
+<a href="/images/2.jpg"><img src="/images/2.jpg" width="980" height="300"></a>
+<a href="/images/3.jpg"><img src="/images/3.jpg" width="980" height="300"></a>
+<a href="/images/4.jpg"><img src="/images/4.jpg" width="980" height="300"></a>
+<a href="/images/5.jpg"><img src="/images/5.jpg" width="980" height="300"></a>
+<a href="/images/6.jpg"><img src="/images/6.jpg" width="980" height="300"></a>
+<a href="/images/7.jpg"><img src="/images/7.jpg" width="980" height="300"></a>
+<a href="/images/8.jpg"><img src="/images/8.jpg" width="980" height="300"></a>
+
+
+</div>
+
+<script type="text/javascript">
+
+  document.addEventListener("DOMContentLoaded", function() {
+
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+
+    var stage = document.getElementById("stage4");
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("webkitAnimationEnd", fadeComplete, false);
+      arr[i].addEventListener("animationend", fadeComplete, false);
+      arr[i].addEventListener("MSAnimationEnd", fadeComplete, false);
+    }
+
+  }, false);
+
+</script>
+<div id="navigation_container">
+
+<!-- the left side of the fork effect -->
+   <div class="l-triangle-top"></div>
+   <div class="l-triangle-bottom"></div>
+
+<!-- the ribbon body -->
+
+   <div class="rectangle">
+   
+<!-- the navigation links -->
+   	
+		<ul id="navigation">
+	   	  <li><a href="#">&#10029; Home</a></li>
+	      <li><a href="#">&#10029; About</a></li>
+	      <li><a href="#">&#10029; Services</a></li>
+	      <li><a href="#">&#10029; Contact</a></li>
+	    </ul>
+   
+<!-- end the ribbon body -->
+   </div>
+   
+<!-- the right side of the fork effect -->
+   <div class="r-triangle-top"></div>
+   <div class="r-triangle-bottom"></div>
+
+<!-- end container -->
+</div>
+
+
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+</section>
+              
+
+
+
+
+
+
