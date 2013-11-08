@@ -24,6 +24,17 @@ body {
  	color: #000000;
  }
 
+#photo {
+
+width: 100%;
+left:0;
+right: 0;
+}
+
+
+
+}
+
 #line{
 	color: #ff0000;
 	font-weight: bold;
